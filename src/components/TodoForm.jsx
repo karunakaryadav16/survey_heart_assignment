@@ -54,12 +54,8 @@ const TodoForm = () => {
 
         {/* Dialog Actions (Submit and Cancel buttons) */}
         <DialogActions>
-          <Button onClick={handleClose} color="secondary">
-            Cancel
-          </Button>
-          <Button className="whitespace-nowrap border-red-900" onClick={handleSubmit} color="primary" variant="contained">
-            Add Todo
-          </Button>
+          <Button onClick={handleClose} color="secondary"> Cancel </Button>
+          <Button className="whitespace-nowrap border-red-900" onClick={handleSubmit} color="primary" variant="contained"> Add Todo </Button>
         </DialogActions>
       </Dialog>
     </div>
