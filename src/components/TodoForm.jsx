@@ -38,11 +38,7 @@ const TodoForm = () => {
   return (
     <div className="w-full">
       {/* Button to open the dialog */}
-      <Button
-        variant="outlined"
-        sx={{ color: 'white', backgroundColor: 'purple', whiteSpace: 'nowrap' }} // C
-        color="primary"
-        onClick={handleClickOpen}>
+      <Button variant="outlined" sx={{ color: 'white', backgroundColor: 'purple', whiteSpace: 'nowrap' }} color="primary" onClick={handleClickOpen}>
         Add Todo
       </Button>
 
